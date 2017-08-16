@@ -136,7 +136,7 @@ function Game() {
   this.board = new Board();
 
   this.start = function() {
-    this.boar.dcreateGrid();
+    this.board.createGrid();
     // Your code here
     this.board.createCheckers();
   };
